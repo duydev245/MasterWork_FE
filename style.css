@@ -489,7 +489,6 @@ h2.resp-tab-title:last-child {
 }
 
 /* start HomepageHeader */
-
 .content {
   background: linear-gradient(to right,
       var(--bg-color),
@@ -533,7 +532,7 @@ h2.resp-tab-title:last-child {
   max-width: 450px;
 }
 
-/* Start  Why Choose Us*/
+/* Start Why Choose Us*/
 .WhyChooseUs .s-block {
   border-radius: var(--card-curve);
   transition: 0.3s ease-in;
@@ -566,7 +565,7 @@ h2.resp-tab-title:last-child {
   transform: var(--transformY);
 }
 
-/* About */
+/* About section */
 .About .book-info h3 {
   font-size: 35px;
   line-height: 40px;
