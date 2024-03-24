@@ -314,18 +314,18 @@ input[type="checkbox"] {
   appearance: none;
 }
 
-.faq-block .faq ul li input[type="checkbox"]:checked ~ p {
+.faq-block .faq ul li input[type="checkbox"]:checked~p {
   margin-top: 0;
   max-height: 0;
   opacity: 0;
   transform: translate(0, 50%);
 }
 
-.faq-block .faq ul li input[type="checkbox"]:checked ~ i:before {
+.faq-block .faq ul li input[type="checkbox"]:checked~i:before {
   transform: translate(2px, 0) rotate(45deg);
 }
 
-.faq-block .faq ul li input[type="checkbox"]:checked ~ i:after {
+.faq-block .faq ul li input[type="checkbox"]:checked~i:after {
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
@@ -491,11 +491,9 @@ h2.resp-tab-title:last-child {
 /* start HomepageHeader */
 
 .content {
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       var(--bg-color),
-      rgba(255, 255, 255, 0.92)
-    ),
+      rgba(255, 255, 255, 0.92)),
     url(./img/banner.jpg);
   position: relative;
   z-index: 1;
@@ -508,10 +506,12 @@ h2.resp-tab-title:last-child {
   align-items: center;
   padding-top: 5rem;
 }
+
 .btn-outline-primary {
   color: var(--primary);
   border-color: var(--primary);
 }
+
 .btn-outline-primary:hover {
   color: white;
   background-color: var(--primary);
@@ -524,6 +524,7 @@ h2.resp-tab-title:last-child {
   color: var(--title-color);
   font-weight: 700;
 }
+
 .HomePageHeader .content-left p {
   color: var(--text-color);
   font-size: 20px;
@@ -531,6 +532,7 @@ h2.resp-tab-title:last-child {
   font-weight: 400;
   max-width: 450px;
 }
+
 /* Start  Why Choose Us*/
 .WhyChooseUs .s-block {
   border-radius: var(--card-curve);
@@ -539,6 +541,7 @@ h2.resp-tab-title:last-child {
   padding: 3rem 2rem;
   border: 1px solid var(--light-bg-color);
 }
+
 .WhyChooseUs .s-block p {
   color: var(--text-color);
   margin-top: 15px;
@@ -546,12 +549,15 @@ h2.resp-tab-title:last-child {
   line-height: 24.5px;
   text-decoration: none;
 }
+
 .WhyChooseUs .s-block a {
   text-decoration: none;
 }
+
 .WhyChooseUs .s-block h3 {
   color: var(--title-color);
 }
+
 .WhyChooseUs .s-block:hover {
   transition: 0.3s ease-in;
   background: var(--bg-color);
@@ -559,6 +565,7 @@ h2.resp-tab-title:last-child {
   box-shadow: var(--card-hover-box-shadow);
   transform: var(--transformY);
 }
+
 /* About */
 .About .book-info h3 {
   font-size: 35px;
@@ -566,6 +573,7 @@ h2.resp-tab-title:last-child {
   color: var(--title-color);
   font-weight: 700;
 }
+
 .About .book-info p {
   font-style: normal;
   font-weight: normal;
@@ -573,6 +581,7 @@ h2.resp-tab-title:last-child {
   color: var(--text-color);
   line-height: 24.4px;
 }
+
 .About .btn-primary {
   color: #fff;
   background-color: #dc4f72;
@@ -583,4 +592,5 @@ h2.resp-tab-title:last-child {
   background-color: #d62f58;
   border-color: #d62f58;
 }
+
 /*  */
