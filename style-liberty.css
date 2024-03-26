@@ -24,7 +24,24 @@
   --card-hover-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
   --transformY: translateY(-0.5rem);
 }
+/* Nhan- root dark mode */
+.dark-theme {
+  --primary: #dc4f72;
+  --secondary: #0d5fa8;
+  --title-color: #eee;
+  --text-color: #b7b7b7;
+  --border-color: #333;
+  --bg-lightgrey: #191c1d;
+  --border-color-light: #333;
+  --bg-color: #131617;
+  --iframe-filter: grayscale(100%);
+  --light-bg-color: #191c1d;
+}
 
+/* navbar */
+.navbar__icon {
+  color: var(--bg-color);
+}
 /* css xài chung */
 body {
   color: #222;
@@ -1352,21 +1369,21 @@ nav ul li a:hover {
   transform: rotate(45deg);
 }
 
-.mode-container i.gg-sun {
+/* .mode-container i.gg-sun {
   display: none;
-}
+} */
 
 .mode-container i.gg-moon {
   display: block;
 }
 
-input:checked + .mode-container i.gg-sun {
+/* input:checked + .mode-container i.gg-sun {
   display: block;
-}
+} */
 
-input:checked + .mode-container i.gg-moon {
+/* input:checked + .mode-container i.gg-moon {
   display: none;
-}
+} */
 
 @media only screen and (max-width: 991px) {
   .mobile-position {
