@@ -2623,7 +2623,9 @@ button.owl-next {
   margin-bottom: 15px;
   margin-top: 10px;
 }
-
+.Stats .stats_info p:last-child {
+  color: var(--text-color);
+}
 .Stats .stats_info h4 {
   font-size: 16px;
   line-height: 24.5px;
